@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-container {
+    font-family: "Poppins", sans-serif;
+ position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 60px;
+    background-color: white;
+    color: #000000;
+    z-index: 1000;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container ul li {
+    cursor: pointer;
+    transition:0.5s;
+    padding: 3px 10px;
+    border-radius: 5px;
+    
+}
+
+.nav-links li {
+    position: relative;
+}
+
+
+
+.nav-container #icons i {
+    font-size: 24px;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.nav-container #icons i:hover{
+    color: #ff0000;
+   
+}
+
+
+.nav-container ul li:hover{
+    background-color: rgba(3, 3, 3, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 8px 12px;
+    border-radius: 40%;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+
+
+
+.logo {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+   
+}
+
+
+
+
+.charger-map {
+  height: 100vh;     
+  width: 100vw;    
+  overflow: hidden; 
+  position: relative;
+}
+
+.charger-map iframe {
+  height: 100%; 
+  width: 100%; 
+  border: none;      
+  display: block;  
+}
